@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
@@ -25,6 +26,12 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="pt-20 pb-32">
+      <Image
+        src="/../public/assets/images/max-highfive.jpg"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
       <HeroOneButton
         title={
           <>
