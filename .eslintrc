@@ -1,8 +1,10 @@
 {
   // Configuration for JavaScript files
   "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "parser": "@babel/eslint-parser",
+
   "rules": {
-     "prettier/prettier": [
+    "prettier/prettier": [
       "error",
       {
         "endOfLine": "auto"
@@ -23,11 +25,11 @@
         "project": "./tsconfig.json"
       },
       "rules": {
-         "@next/next/no-document-import-in-page": "off",
+        "@next/next/no-document-import-in-page": "off",
         "prettier/prettier": [
           "error",
           {
-           "endOfLine": "auto"
+            "endOfLine": "auto"
           }
         ],
         "react/destructuring-assignment": "off", // Vscode doesn't support automatically destructuring, it's a pain to add a new variable

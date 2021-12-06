@@ -21,6 +21,11 @@ const Hero = () => (
             <a>News</a>
           </Link>
         </li>
+        <li>
+          <Link href="/pitching">
+            <a>Gif</a>
+          </Link>
+        </li>
       </NavbarTwoColumns>
     </Section>
 
