@@ -1,5 +1,5 @@
-import { Events } from "../views/Event";
+import { Event } from "../views/Event";
 
-const Profile = () => <Events />;
+const Profile = () => <Event />;
 
 export default Profile;
