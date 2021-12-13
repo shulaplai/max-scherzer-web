@@ -1,6 +1,7 @@
 import React from "react";
 // import ReactMarkdown from "react-markdown";
 
+// eslint-disable-next-line import/no-named-as-default-member
 import GetNews from "../api/getNews";
 import { Footer } from "./Footer";
 import { Layout } from "./Layout";
