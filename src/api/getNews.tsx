@@ -13,9 +13,7 @@ const axios = require("axios").default;
 
 const GetNews = () => {
   const playerInfo = axios
-    .get(
-      "http://lookup-service-prod.mlb.com/json/named.player_info.bam?sport_code='mlb'&player_id='453286'"
-    )
+    .get("'https://www.reddit.com/r/javascript/hot.json'")
     .then(function (response: any) {
       console.log(response);
     })
@@ -25,7 +23,7 @@ const GetNews = () => {
   return (
     <div>
       {" "}
-      aaaa<p>{playerInfo.player_info}</p>
+      aaaa<p>{playerInfo}</p>
     </div>
   );
 };
