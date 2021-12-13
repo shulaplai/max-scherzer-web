@@ -16,12 +16,12 @@ const Layout = () => (
         </li>
         <li>
           <Link href="/new">
-            <a>News</a>
+            <a>Interesting Story</a>
           </Link>
         </li>
         <li>
           <Link href="/pitching">
-            <a>Video</a>
+            <a>Youtube Introduction</a>
           </Link>
         </li>
       </NavbarTwoColumns>
