@@ -13,7 +13,7 @@ const axios = require("axios").default;
 
 const GetNews = () => {
   const playerInfo = axios
-    .get("'https://www.reddit.com/r/javascript/hot.json'")
+    .get("https://www.reddit.com/r/baseball/hot.json")
     .then(function (response: any) {
       console.log(response);
     })
