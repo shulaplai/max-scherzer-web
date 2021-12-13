@@ -2,6 +2,7 @@ import React from "react";
 
 import YouTube from "react-youtube";
 
+import GetNews from "../api/getNews";
 import { Footer } from "./Footer";
 import { Layout } from "./Layout";
 
@@ -15,7 +16,7 @@ function News() {
           <YouTube videoId="BsINY1-d4Kg" />
         </div>
       </div>
-
+      <GetNews />
       <div>
         <Footer />
       </div>
