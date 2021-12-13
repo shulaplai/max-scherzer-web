@@ -1,6 +1,5 @@
 import React from "react";
-
-import YouTube from "react-youtube";
+// import ReactMarkdown from "react-markdown";
 
 import GetNews from "../api/getNews";
 import { Footer } from "./Footer";
@@ -12,8 +11,7 @@ function News() {
       <Layout />
       <div className="max-w-screen-lg mx-auto px-3">
         <div className="antialiased text-gray-600">
-          <h1>Youtube Video</h1>
-          <YouTube videoId="BsINY1-d4Kg" />
+          <h1>Stats</h1>
         </div>
       </div>
       <GetNews />
