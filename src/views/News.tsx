@@ -1,8 +1,11 @@
+/* eslint-disable func-names */
+/* eslint-disable no-console */
+/* eslint-disable no-plusplus */
 import React from "react";
 // import ReactMarkdown from "react-markdown";
 
 // eslint-disable-next-line import/no-named-as-default-member
-import GetNews from "../api/getNews";
+// import GetNews from "../api/getNews";
 import { Footer } from "./Footer";
 import { Layout } from "./Layout";
 
@@ -15,7 +18,6 @@ function News() {
           <h1>Stats</h1>
         </div>
       </div>
-      <GetNews />
       <div>
         <Footer />
       </div>
